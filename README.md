@@ -4,26 +4,14 @@ Your Java class should keep track of various grades. You can use character varia
 
 The design is up to you. Your class needs to be able to keep track of grades, access them, and set them. It is recommended that you use getters and setters, which are methods which return and set specific variables. For example, if your class had an int variable called chemistryGrade, you might include methods such as
 
-public int getChemistryGrade() {
-    return chemistryGrade;
-}
 
-public void setChemistryGrade(int grade) {
-    chemistryGrade = grade;
-}
 Methods like this allow another programmer to use your class without necessarily understanding all the variables inside. You will also need to implement a constructor. If your class is called ReportCard, your constructor would be structured like this:
 
-public ReportCard() {
-    //Initialize any variables here!
-}
+
 The most important portion of your project will be the toString() method, which gives a human-readable String representing the data stored in the report card. The signature looks like this:
 
-@Override
-public String toString() {
-    //Your code here!  Return a representation of 
-    //the report card rather than the empty string
-    return "";
-}
+
+
 An example return value might be a String like "Name: John Doe; English grade: A; History grade: B-; Math grade: B+;" and so on.
 
 Implementing the toString() Method
